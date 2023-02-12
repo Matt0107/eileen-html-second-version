@@ -1,0 +1,65 @@
+/* Sticky navigation bar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Links inside the navigation bar */
+.navbar a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    color: goldenrod;
+}
+
+/* Title */
+.title {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+/* Full-size image section */
+.full-size-section {
+    width: 100%;
+    height: 0;
+    padding-bottom: 66.67%;
+    background-image: url('assets/main.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Footer */
+.footer {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    margin: 20px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer div:nth-child(2) {
+    margin-top: 40px;
+}
+
+/* Social media icons */
+.social-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
