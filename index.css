@@ -11,6 +11,11 @@
     /* Add styles for devices with a screen width of 1025px or larger */
 }
 
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Sticky navigation bar */
 .navbar {
     position: sticky;
@@ -19,6 +24,7 @@
     background-color: white;
     padding: 20px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 /* Links inside the navigation bar */
@@ -28,7 +34,7 @@
     text-align: center;
     padding: 20px;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 /* Change color on hover */
