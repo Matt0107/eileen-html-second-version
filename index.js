@@ -24,3 +24,8 @@ document.addEventListener("click", function (event) {
     document.body.classList.remove("burger-menu-open");
   }
 });
+const title = document.querySelector(".title");
+
+title.addEventListener("click", function () {
+  window.location.href = "./index.html";
+});

@@ -37,6 +37,7 @@ body {
 .title {
     font-size: 150%;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 /* Burger menu */
@@ -163,6 +164,7 @@ body {
 .footer {
     padding: 20px;
     text-align: center;
+    /* background-color: lightgray; */
 }
 
 .footer a {
