@@ -168,13 +168,23 @@ body {
 
 
 /* Media section */
-#media-section h1 {
-    color: red;
+.youtube-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.youtube-link iframe {
+    margin: 10px;
 }
 
 /* Calendar section */
-#calendar-section h1 {
-    color: red;
+.event {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 1.5em;
+    padding: 10px;
 }
 
 /* contact section */
@@ -182,13 +192,27 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10%;
 }
 
-.general-management img {
-    width: 40%;
+.general-management a {
+    padding: 30px;
+    font-size: 120%;
 }
 
-.contact-icons {}
+.contact-icons {
+    display: flex;
+    align-items: center;
+}
+
+.contact-icons p {
+    font-size: 120%;
+}
+
+.contact-icons img {
+    width: 20%;
+    margin: 10px;
+}
 
 
 
