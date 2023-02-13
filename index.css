@@ -140,9 +140,32 @@ body {
 }
 
 /* About section */
-#about-section h1 {
-    color: red;
+#about-section {
+    display: flex;
 }
+
+.picture-section {
+    width: 50%;
+    background-color: #ddd;
+    /* Add styling for the image here */
+}
+
+.picture-section img {
+    background-color: #ddd;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.biography-section {
+    width: 50%;
+    padding: 1rem;
+    /* Add styling for the text here */
+}
+
 
 /* Media section */
 #media-section h1 {
@@ -155,9 +178,18 @@ body {
 }
 
 /* contact section */
-#contact-section h1 {
-    color: red;
+.general-management {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.general-management img {
+    width: 40%;
+}
+
+.contact-icons {}
+
 
 
 /* Footer */
