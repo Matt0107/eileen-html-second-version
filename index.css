@@ -162,10 +162,7 @@ body {
 
 .biography-section {
     width: 50%;
-    padding: 1rem;
-    /* Add styling for the text here */
 }
-
 
 /* Media section */
 .youtube-link {
@@ -214,7 +211,15 @@ body {
     margin: 10px;
 }
 
+/* impressum section */
+#impressum {
+    margin: 3%;
+}
 
+/* privacy section */
+#privacy {
+    margin: 3%;
+}
 
 /* Footer */
 .footer {
