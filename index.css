@@ -223,9 +223,12 @@ body {
 
 /* Footer */
 .footer {
-    padding: 20px;
     text-align: center;
-    /* background-color: lightgray; */
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    padding-top: 2%;
+    background-color: white;
 }
 
 .footer a {
@@ -246,6 +249,10 @@ body {
     height: 50px;
 }
 
+.legal {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 /* Media queries */
 @media only screen and (min-width: 390px) {
     .title {
@@ -255,6 +262,8 @@ body {
     .navbar a {
         font-size: 125%;
     }
+
+
 
 }
 
