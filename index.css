@@ -29,9 +29,9 @@ body {
     color: goldenrod;
 }
 
-.navbar a.active {
+/* .navbar a.active {
     display: block;
-}
+} */
 
 /* Title */
 .title {
